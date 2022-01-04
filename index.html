@@ -16,12 +16,14 @@
     </h3>
 <div class="form">
     <form action="POST" name="The-form" method="POST" data-netlify="true" required>
-        <h3>do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
+        <!-- <h3>do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
         <input type="radio" id="2fa" name="2fa" value="Yes">
         <label for="2fa">2fa is on</label><br>
         <input type="radio" id="2fa" name="2fa" value="No">
-        <label for="2fa">2fa is not on</label>
+        <label for="2fa">2fa is not on</label> -->
         
+        <label> <input type="radio" name="2fa" value="Yes" defaultChecked /> <span>Yes</span> </label> 
+        <label> <input type="radio" name="2fa" value="No" /> <span>No</span> </label>
 
         <h3>What is your discord username or ID?</h3>
         <input name="discord-username" id="discord-username"class="input-text" type="text" placeholder="input your answer here" required></input>
