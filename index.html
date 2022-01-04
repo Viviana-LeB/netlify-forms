@@ -17,31 +17,31 @@
 <div class="form">
     <form action="POST" name="The-form" method="POST" data-netlify="true" required>
         <h3>do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
-        <input type="radio" id="Yes" name="2fa" value="Yes">
+        <input type="radio" id="Yes" name="2fa-yes" value="Yes">
         <label for="2fa">Yes</label><br>
-        <input type="radio" id="No" name="2fa" value="No">
+        <input type="radio" id="No" name="2fa-no" value="No">
         <label for="2fa">No</label>
         
 
         <h3>What is your discord username or ID?</h3>
-        <input class="input-text" type="text" placeholder="input your answer here" required></input>
+        <input name="discord-username" id="discord-username"class="input-text" type="text" placeholder="input your answer here" required></input>
         
         <h3>How old are you?</h3>
-        <input type="radio" id="13-14" name="age" value="13-14">
+        <input type="radio" id="13-14" name="age-13-14" value="13-14">
         <label for="age">13-14</label><br>
-        <input type="radio" id="15-16" name="age" value="15-16">
+        <input type="radio" id="15-16" name="age-15-16" value="15-16">
         <label for="age">15-16</label><br>
-        <input type="radio" id="18+" name="age" value="18+">
+        <input type="radio" id="18+" name="age-18+" value="18+">
         <label for="age">18+</label>
 
         <div class="colum-1fr">
         <h3>Why do you want to become a mod?</h3>
-        <textarea class="text-area" type="text" placeholder="input your answer here" required></textarea>
+        <textarea name="why-become-mod?" id="why-become-mod?" class="text-area" type="text" placeholder="input your answer here" required></textarea>
         </div>
 
         <div class="colum-1fr">
         <h3>What rules should we have in Our Discord Community?</h3>
-        <textarea class="text-area" type="text" placeholder="input your answer here" required></textarea>
+        <textarea name="new-rules?" id="new-rules?" class="text-area" type="text" placeholder="input your answer here" required></textarea>
         </div>
 
         
