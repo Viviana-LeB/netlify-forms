@@ -1,5 +1,20 @@
- body {
-     margin-bottom: 100px;
+body {
+    color: rgb(146, 15, 15);
+    font-family: 'Comforter', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+    background-image: url(/image/44230587-três-filhotes-de-pinguim-imperador-juntos.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
  }
 
 .colum-1fr {
