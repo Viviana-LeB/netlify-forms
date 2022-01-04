@@ -13,30 +13,56 @@
         the requirements are... <br>
         age 15+ <br>
         2fa enabled
+        Be active at least every other day.
 
     </h3>
 <div class="form">
     <form action="POST" name="The-form" method="POST" data-netlify="true" required>
+        <div class="radio">
         <h3>Do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
         <label> <input type="radio" name="Do-you-have-2fa-enabled?" value="Yes" defaultChecked /> <span>Yes</span> </label> 
         <label> <input type="radio" name="Do-you-have-2fa-enabled?" value="No" /> <span>No</span> </label>
+        </div>
 
         <h3>What is your discord username or ID?</h3>
-        <input name="What-is-your-discord-username-or-ID?" id="What-is-your-discord-username-or-ID?"class="input-text" type="text" placeholder="input your answer here" required></input>
+        <input name="What-is-your-discord-username-or-ID?" id="What-is-your-discord-username-or-ID?"class="input-text" type="text" placeholder="Input your answer here." required></input>
         
+        <div class="radio">
         <h3>How old are you?</h3>
         <label> <input type="radio" name="How-old-are-you?" value="13-14" defaultChecked /> <span>13-14</span> </label> 
         <label> <input type="radio" name="How-old-are-you?" value="15-17" /> <span>15-17</span> </label>
         <label> <input type="radio" name="How-old-are-you?" value="18+" /> <span>18+</span> </label>
+        </div>
 
         <div class="colum-1fr">
         <h3>Why do you want to become a mod?</h3>
-        <textarea name="Why do you want to become a mod?" id="Why do you want to become a mod?" class="text-area" type="text" placeholder="input your answer here" required></textarea>
+        <textarea name="Why do you want to become a mod?" id="Why do you want to become a mod?" class="text-area" type="text" placeholder="Input your answer here." required></textarea>
+        </div>
+
+        <div class="radio">
+            <h3>How active are you in the server?</h3>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="More than 12hr. daily." defaultChecked /> <span>More than 12hr. daily.</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="More than 6hr. daily." /> <span>More than 6hr. daily.</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="More than 3hr. daily." /> <span>More than 3hr. daily.</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="More than 1hr. daily." /> <span>More than 1hr. daily.</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="Less than 1hr. daily" /> <span>Less than 1hr. daily</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="I am active on weekends" /> <span>I am active on weekends</span> </label> <br>
+            <label> <input type="radio" name="How-active-are-you-in-the-server?" value="Idk why I am applying, I never talk in the server." /> <span>Idk why I am applying, I never talk in the server.</span> </label> <br>
+        </div>
+
+        <div class="colum-1fr">
+            <h3>How can you help the server grow and be more active?</h3>
+            <textarea name="How-can-you-help-the-server-grow-and-be-more-active?" id="How-can-you-help-the-server-grow-and-be-more-active?" class="text-area" type="text" placeholder="Input your answer here." required></textarea>
+        </div>
+
+        <div class="colum-1fr">
+            <h3>what are the rules of our community?</h3>
+            <textarea name="what-are-the-rules-of-our-community?" id="what-are-the-rules-of-our-community?" class="text-area" type="text" placeholder="Input your answer here." required></textarea>
         </div>
 
         <div class="colum-1fr">
         <h3>What rules should we have in Our Discord Community?</h3>
-        <textarea name="What-rules-should-we-have-in-Our-Discord-Community?" id="What-rules-should-we-have-in-Our-Discord-Community?" class="text-area" type="text" placeholder="input your answer here" required></textarea>
+        <textarea name="What-rules-should-we-have-in-Our-Discord-Community?" id="What-rules-should-we-have-in-Our-Discord-Community?" class="text-area" type="text" placeholder="Input your answer here." required></textarea>
         </div>
 
         <div class="submit-btn">
