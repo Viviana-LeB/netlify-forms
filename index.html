@@ -16,25 +16,17 @@
     </h3>
 <div class="form">
     <form action="POST" name="The-form" method="POST" data-netlify="true" required>
-        <!-- <h3>do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
-        <input type="radio" id="2fa" name="2fa" value="Yes">
-        <label for="2fa">2fa is on</label><br>
-        <input type="radio" id="2fa" name="2fa" value="No">
-        <label for="2fa">2fa is not on</label> -->
-        
-        <label> <input type="radio" name="2fa" value="Yes" defaultChecked /> <span>Yes</span> </label> 
-        <label> <input type="radio" name="2fa" value="No" /> <span>No</span> </label>
+        <h3>do you have 2fa enabled? (if you do not, please don't continue this form)</h3>
+        <label> <input type="radio" name="is-2fa-on" value="Yes" defaultChecked /> <span>Yes</span> </label> 
+        <label> <input type="radio" name="is-2fa-on" value="No" /> <span>No</span> </label>
 
         <h3>What is your discord username or ID?</h3>
         <input name="discord-username" id="discord-username"class="input-text" type="text" placeholder="input your answer here" required></input>
         
         <h3>How old are you?</h3>
-        <input type="radio" id="13-14" name="age" value="13-14">
-        <label for="13-14">13-14 is how old I am</label><br>
-        <input type="radio" id="15-17" name="age" value="15-17">
-        <label for="15-17" >15-17 is how old I am</label><br>
-        <input type="radio" id="18+" name="age" value="18+">
-        <label for="18+">18+ is how old I am</label>
+        <label> <input type="radio" name="how-old-are-you?" value="13-14" defaultChecked /> <span>13-14</span> </label> 
+        <label> <input type="radio" name="how-old-are-you?" value="15-17" /> <span>15-17</span> </label>
+        <label> <input type="radio" name="how-old-are-you?" value="18+" /> <span>18+</span> </label>
 
         <div class="colum-1fr">
         <h3>Why do you want to become a mod?</h3>
