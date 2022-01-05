@@ -26,6 +26,7 @@ body {
     display: grid;
     grid-gap: 4px;
     grid-template-columns: 1fr;
+
 }
 
 .text-area {
@@ -35,7 +36,14 @@ font-size: 1rem;
 height: 100px;
 outline: none;
 padding: 10px;
--webkit-font-smoothing: antialiased;
+
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .btn {
@@ -44,6 +52,4 @@ padding: 10px;
     background-color: #0099ff;
     height: 50px;
     width: 200px;
-    margin-left: 23vw;
-    margin-right: 23vw;
 }
