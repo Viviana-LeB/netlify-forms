@@ -1,8 +1,9 @@
 body {
-    color: rgb(146, 15, 15);
+    color: rgb(168, 124, 29);
     font-family: 'Comforter', cursive;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    /* background-color: #adcbcf; */
 }
 .picture {
     background-image: url(/image/44230587-três-filhotes-de-pinguim-imperador-juntos.webp);
@@ -10,6 +11,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    background-image: blur;
  }
 
  .form {
@@ -32,7 +34,7 @@ body {
 .text-area {
 border: 1px solid #26bfd4;
 background-color: transparent;
-font-size: 1rem;
+font-size: 1.1rem;
 height: 100px;
 outline: none;
 padding: 10px;
@@ -52,4 +54,8 @@ padding: 10px;
     background-color: #0099ff;
     height: 50px;
     width: 200px;
+}
+
+.btn:hover {
+cursor: pointer;
 }
